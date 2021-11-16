@@ -289,13 +289,29 @@ p {
 }
 
 .data-card:hover {
-  background: #753BBD;
   transform: scale(1.02);
 }
 
 .data-card:hover h3 {
   color: #FFFFFF;
   border-bottom-color: #A754C4;
+}
+
+
+.easy:hover {
+  background:#AED9E0;
+}
+
+.normal:hover {
+  background: #C0C999;
+}
+
+.hard:hover {
+  background: #753BBD;
+}
+
+.extra:hover {
+  background: #B30089;
 }
 
 .data-card:hover h4 {

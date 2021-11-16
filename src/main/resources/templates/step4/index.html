@@ -11,7 +11,7 @@
     integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
   <link rel="stylesheet" th:href="@{/css/styles.css}">
-  <title>STEP-1</title>
+  <title>STEP-4</title>
 </head>
 
 <body>
@@ -19,9 +19,10 @@
     <div class="information pure-g">
       <div class="pure-u-1">
         <div class="l-box">
-          <h1 class="information-head">STEP-1 文字を表示してみよう！</h1>
-          <p>レベル１（基礎）</p>
-          <p th:text="${title}">Title</p>
+          <h1 class="information-head">STEP-4 新しいAPIを追加してみよう</h1>
+          <p>レベル２（初級）</p>
+          <p>新しいAPIをクリックしたら自分で作ったAPIを表示しよう</p>
+          <a class="pure-button" th:href="@{/api/step4}">新しいAPI</a>
         </div>
       </div>
     </div>

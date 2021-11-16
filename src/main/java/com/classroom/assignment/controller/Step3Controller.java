@@ -5,11 +5,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/")
-public class IndexController {
+@RequestMapping("/step3")
+public class Step3Controller {
 
-  @GetMapping()
+  @GetMapping
   public String index() {
-    return "index";
+    return "step3/index";
+  }
+  
+  @GetMapping("/next")
+  public String next() {
+    return "step3/index";
   }
 }

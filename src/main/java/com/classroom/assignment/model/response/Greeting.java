@@ -4,17 +4,17 @@ package com.classroom.assignment.model.response;
 public class Greeting {
 
   /** id */
-  private final long id;
+  private final String id;
   /** content */
   private final String content;
 
   /** constractor */
-  public Greeting(final long id, final String content) {
+  public Greeting(final String id, final String content) {
     this.id = id;
     this.content = content;
   }
 
-  public long getId() {
+  public String getId() {
     return this.id;
   }
 
